@@ -154,6 +154,6 @@ main::after {
     background: linear-gradient(135deg, #6366f1, #1e293b);
     border: 5px solid #8b5cf6;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.);
     margin: 40px auto;
 }
