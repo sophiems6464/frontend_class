@@ -1,0 +1,47 @@
+.hero-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 5rem 0;
+}
+
+.hero-left {
+  padding: 3rem 0;
+}
+.hero-left h1 {
+  font-size: 5rem;
+  color: var(--color-text);
+}
+.hero-left h1 span {
+  color: var(--color-primary);
+}
+.hero-left h2 {
+  color: var(--color-muted);
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+.hero-left p {
+  font-size: 2rem;
+  color: var(--color-muted);
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle{
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-dark));
+    border: 5px solid var(--color-primary);
+    border-radius: var(--rounded-full);
+}
